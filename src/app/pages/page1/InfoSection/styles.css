@@ -1,0 +1,25 @@
+.info-section {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  background-color: #0a0a0a;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.info-column h3 {
+  color: #00ffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-column ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.info-column li {
+  margin-bottom: 0.5rem;
+}

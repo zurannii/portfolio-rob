@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.intro-section {
+  padding: 4rem 2rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+
+.intro-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-family: "Georgia", serif;
+}
+
+.intro-title .highlight {
+  color: #06a4a7;
+}
+
+.intro-subtitle {
+  color: #066B6D;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 33.858px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 1008px;
+
+}
+
+
+.intro-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+
+}
+
+.intro-description p {
+  font-family: "Inter", sans-serif;
+  color: #BCBCBC;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20.545px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.567px; /* 129.31% */
+  width: 712.068px;
+  border: #BCBCBC;
+
+}
+
+.description-p{
+  border-radius: 17.711px;
+  border: 2px solid #BDBDBD;
+  padding: 10px;
+}
+.intro-avatar {
+  width: 765px;
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.rob-avatar-foto {
+  border-radius: 272px;
+  border: 2px solid #BDBDBD;
+  padding: 8px;
+}
