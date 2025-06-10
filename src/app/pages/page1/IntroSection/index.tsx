@@ -4,11 +4,7 @@ import Image from "next/image";
 export const IntroSection = () => {
   return (
     <section className="intro-section">
-      {/* <h2 className="intro-title">
-        Olá, sou a <span className="highlight">Rob!</span>
-      </h2> */}
-      
-      <Image src="/imgs/Olá, sou a Rob.png"  alt="Portfolio" width={1212} height={155} />
+      <Image src="/imgs/intro-title.png"  alt="Portfolio" width={1212} height={155} />
       
       <p className="intro-subtitle ">
         Web Designer apaixonada por criar experiências visuais que conectam e

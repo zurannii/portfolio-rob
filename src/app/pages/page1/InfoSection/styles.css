@@ -3,13 +3,13 @@
   justify-content: center;
   gap: 4rem;
   padding: 4rem 2rem;
-  background-color: #0a0a0a;
+  background-color: #000000;
   color: #fff;
   flex-wrap: wrap;
 }
 
 .info-column h3 {
-  color: #00ffff;
+  color: #00B1A2;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
@@ -22,4 +22,14 @@
 
 .info-column li {
   margin-bottom: 0.5rem;
+}
+
+.laguages{
+  border-radius: 17px;
+  border: 1px solid #00B1A2;
+  width: 253px;
+  height: 139px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 14px;
 }

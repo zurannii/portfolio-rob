@@ -14,14 +14,16 @@ export const HeroSection = () => {
         experiências.
       </p>
       <div className="hero-buttons">
-        <Button
-          type="primary"
-          action={() => {
-            alert("Exectuta uma função aqui");
-          }}
-        >
-          Sobre mim
-        </Button>
+        <a href="#intro-section">
+          <Button
+            type="primary"
+            action={() => {
+              alert("Executa uma função aqui");
+            }}
+          >
+            Sobre mim
+          </Button>
+        </a>
         <Button
           type="secondary"
           action={() => {

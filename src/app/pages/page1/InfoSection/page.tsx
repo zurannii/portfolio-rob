@@ -55,20 +55,20 @@ export const InfoSection = () => {
           <li>Resiliência • Criatividade • Proatividade</li>
           <li>Empatia • Análise Crítica • Autodidata</li>
         </ul>
-
-        <h3 className="info-title">Idiomas</h3>
-        <ul className="language-list">
-          <li>
-            <strong>Português:</strong> 🇧🇷
-          </li>
-          <li>
-            <strong>Inglês:</strong> ——
-          </li>
-          <li>
-            <strong>Espanhol:</strong> ——
-          </li>
-        </ul>
-
+        <div className="laguages">
+          <h3 className="info-title">Idiomas</h3>
+          <ul className="language-list">
+            <li>
+              <strong>Português:</strong> ————————
+            </li>
+            <li>
+              <strong>Inglês:</strong> ————
+            </li>
+            <li>
+              <strong>Espanhol:</strong> ————
+            </li>
+          </ul>
+        </div>
         <h3 className="info-title">Interesses</h3>
         <ul>
           <li>Ouvir música • Cozinhar • Hackathons</li>

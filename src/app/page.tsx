@@ -11,6 +11,5 @@ import { IntroSection } from "./pages/page1/IntroSection";
 export default function Home() {
   return (
     <InitialPage></InitialPage>
-
   );
 }
